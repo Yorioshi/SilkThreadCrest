@@ -1,0 +1,17 @@
+name: Testes isolados (nao valida gameplay)
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  isolated-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+      - name: Binding, recursos e selecao de poses
+        run: bash scripts/test.sh

@@ -1,0 +1,32 @@
+# Build and editors
+**/bin/
+**/obj/
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+artifacts/
+# Local proprietary dependencies
+Managed/
+deps/
+BepInEx/
+*.dll
+*.pdb
+# Credentials and personal runtime data
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+appearance.json
+summons-slot-*.json
+*.cfg
+*.log
+LogOutput.txt
+user*.dat
+*.bak
+*.dmp
+# OS metadata
+.DS_Store
+Thumbs.db

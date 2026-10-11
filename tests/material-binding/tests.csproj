@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><TargetFramework>net8.0</TargetFramework><OutputType>Exe</OutputType><EnableDefaultCompileItems>false</EnableDefaultCompileItems></PropertyGroup>
+  <ItemGroup>
+    <Compile Include="BindingTests.cs" />
+    <Compile Include="../../src/SilkThreadMaterialBinding.cs" />
+    <Compile Include="../../src/SilkThreadSkinAssetReader.cs" />
+    <EmbeddedResource Include="../../Skins/SilkEclipse/Texture2D/silk_eclipse_sheet.png" LogicalName="test.skin.png" />
+  </ItemGroup>
+</Project>

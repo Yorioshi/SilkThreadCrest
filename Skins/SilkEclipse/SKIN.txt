@@ -1,0 +1,14 @@
+Silk Eclipse — camada visual experimental, versão 0.7.25
+
+A folha original 4x2 contém oito poses, não uma coleção completa de animações.
+A seleção acompanha clip e frame do animator corporal tk2d da Hornet.
+A escala e posição usam a geometria do Idle nativo, com pivôs por pose.
+
+Idle e caminhada usam duas poses; salto, queda, ataque simples e cura usam as
+poses correspondentes disponíveis. Dash, parede, pogo, ataque vertical, dano,
+morte, ferramentas, cutscenes e outras ações não cobertas usam a arte ORIGINAL
+da Hornet. A antecipação e a recuperação do ataque simples também usam a arte
+nativa; somente a fase central usa a pose de ataque da Silk Eclipse.
+
+Para uma skin fiel em todas as ações ainda é necessário desenhar e mapear
+frames equivalentes aos atlases completos. Consulte CHANGELOG-0.7.25.md.
