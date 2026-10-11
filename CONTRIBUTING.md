@@ -62,7 +62,7 @@ A versão funcional está em `SilkThreadCrestPlugin.PluginVersion`. Neste baseli
 
 Antes da entrega, confira que o título F8 e o log `Appearance runtime` correspondem à DLL instalada. Mantenha uma única DLL do mesmo GUID. Duplicatas podem causar registro/patch duplo e dificultar diagnóstico.
 
-Para compartilhar arte de terceiros, confira licença e autorização de redistribuição específicas; links de referência não significam que seus assets estão incluídos. [NOTICE.md](NOTICE.md) registra a situação atual. A licença de redistribuição do projeto ainda precisa ser escolhida pelo proprietário; não aplique MIT/GPL/etc. automaticamente.
+Para compartilhar arte de terceiros, confira licença e autorização de redistribuição específicas; links de referência não significam que seus assets estão incluídos. [NOTICE.md](NOTICE.md) registra a situação atual. O código original do projeto está sob [MIT](LICENSE); mantenha o aviso de copyright e a licença nas redistribuições. Não relicencie contribuições ou assets de terceiros automaticamente.
 
 ## Relatar falhas
 

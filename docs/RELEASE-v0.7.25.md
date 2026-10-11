@@ -24,4 +24,4 @@ Catálogo de ataques, sinergias e packs usam heurísticas de nomes/cores; não h
 
 Feche o jogo, faça backup dos saves antes de testar persistência e mantenha uma única DLL do mesmo GUID. Não apague `appearance.json` ou `summons-slot-N.json` para atualizar. Rollback normal é restaurar a DLL anterior conhecida como funcional; mudanças de schema exigem migração/backup específico.
 
-Repositório privado por padrão. A licença geral ainda precisa ser escolhida pelo proprietário; `NOTICE.md` registra direitos e dependências não incluídas.
+O código original, a documentação e os scripts estão sob MIT; consulte `LICENSE` e `NOTICE.md` para direitos e dependências não incluídas. Mantenha os avisos nas redistribuições.

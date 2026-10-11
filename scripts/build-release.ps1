@@ -26,7 +26,9 @@ try {
     Copy-Item $Dll $PluginStage
     Copy-Item (Join-Path $Root 'Skins') $PluginStage -Recurse
     Copy-Item (Join-Path $Root 'README.md') (Join-Path $Stage 'windows')
-    foreach ($Name in @('src','Skins','docs','scripts','tests','.github','README.md','AGENTS.md','CONTRIBUTING.md','CHANGELOG.md','NOTICE.md','.gitignore','.gitattributes')) {
+    Copy-Item (Join-Path $Root 'LICENSE') (Join-Path $Stage 'windows')
+    Copy-Item (Join-Path $Root 'NOTICE.md') (Join-Path $Stage 'windows')
+    foreach ($Name in @('src','Skins','docs','scripts','tests','.github','README.md','AGENTS.md','CONTRIBUTING.md','CHANGELOG.md','LICENSE','NOTICE.md','.gitignore','.gitattributes')) {
         $Path = Join-Path $Root $Name
         if (Test-Path $Path) { Copy-Item $Path $SourceStage -Recurse }
     }

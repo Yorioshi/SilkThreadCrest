@@ -40,7 +40,7 @@ Outros aprimoramentos propostos: seletor visível de ordenação/nome/aquisiçã
 
 Expor parâmetros de balanceamento com limites/defaults atuais e documentar migração, separar apresentação do domínio do combate gradualmente, criar testes de DTO/save/dano e integração Unity, medir stutter/memória de atlases e buscas globais, e registrar uma matriz real de versões do jogo/BepInEx/outros mods são trabalhos futuros.
 
-Os scripts de teste e empacotamento agora são portáveis; o Bash foi executado. O PowerShell e o ciclo do GitHub Actions devem ter seus resultados registrados depois de execução. A licença de redistribuição e a opção de tornar o repositório público cabem ao proprietário; o baseline foi mantido privado.
+Os scripts de teste e empacotamento agora são portáveis; o Bash foi executado. O PowerShell e o ciclo do GitHub Actions devem ter seus resultados registrados depois de execução. A licença MIT foi escolhida pelo proprietário e adicionada em `LICENSE`; dependências e assets de terceiros mantêm direitos próprios. O baseline foi criado privado originalmente.
 
 ## Sequência sugerida
 

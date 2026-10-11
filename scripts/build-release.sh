@@ -25,7 +25,8 @@ mkdir -p "$STAGE/windows/BepInEx/plugins/SilkThreadCrest" "$STAGE/source"
 cp "$ROOT/src/bin/Release/net472/SilkThreadCrest.dll" "$STAGE/windows/BepInEx/plugins/SilkThreadCrest/"
 cp -R "$ROOT/Skins" "$STAGE/windows/BepInEx/plugins/SilkThreadCrest/"
 cp "$ROOT/README.md" "$STAGE/windows/"
-for name in src Skins docs scripts tests .github README.md AGENTS.md CONTRIBUTING.md CHANGELOG.md NOTICE.md .gitignore .gitattributes; do
+cp "$ROOT/LICENSE" "$ROOT/NOTICE.md" "$STAGE/windows/"
+for name in src Skins docs scripts tests .github README.md AGENTS.md CONTRIBUTING.md CHANGELOG.md LICENSE NOTICE.md .gitignore .gitattributes; do
   [[ ! -e "$ROOT/$name" ]] || cp -R "$ROOT/$name" "$STAGE/source/"
 done
 find "$STAGE/source" -type d \( -name bin -o -name obj \) -prune -exec rm -rf {} +

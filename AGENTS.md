@@ -60,7 +60,7 @@ Não mude estes contratos sem uma solicitação explícita ou proposta aprovada:
 6. Execute os testes isolados (`scripts/test.sh` ou `scripts/test.ps1`). Compile com as DLLs da instalação real. Se faltar dependência, declare a falta; não baixe DLL de jogo de terceiros nem use stubs para afirmar build de produção.
 7. Faça diff e auditoria de efeitos colaterais. Se o patch é visual, confirme que as rotinas de dano/save/turno não mudaram.
 8. Registre o resultado dos testes, alterações, limitações e checklist in-game. Atualize versão, documentação do módulo e changelog se há mudança de comportamento.
-9. Empacote somente a DLL do mod, arte/instruções e fonte. Não inclua DLLs do jogo, BepInEx, saves, configs pessoais, logs com dados privados ou segredos.
+9. Empacote somente a DLL do mod, arte/instruções e fonte, incluindo `LICENSE` e `NOTICE.md`. Não inclua DLLs do jogo, BepInEx, saves, configs pessoais, logs com dados privados ou segredos.
 10. Não sobrescreva a última build conhecida como funcional sem backup. Entregue rollback claro.
 
 ## 6. Armadilhas técnicas importantes

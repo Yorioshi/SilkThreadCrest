@@ -1,6 +1,6 @@
 # Estado do projeto — baseline 0.7.25
 
-**Registro: 11 de outubro de 2026.** A inclusão no GitHub organiza o código atual; não altera mecânicas nem cria uma versão de gameplay nova. O termo “pronto” usado para o combate significa que o fluxo atende ao uso pontual do proprietário, não que houve QA completo de todas as situações do jogo.
+**Registro: 11 de outubro de 2026. Licença do código original: [MIT](../LICENSE).** A inclusão no GitHub organiza o código atual; não altera mecânicas nem cria uma versão de gameplay nova. O termo “pronto” usado para o combate significa que o fluxo atende ao uso pontual do proprietário, não que houve QA completo de todas as situações do jogo.
 
 ## Como interpretar os estágios
 

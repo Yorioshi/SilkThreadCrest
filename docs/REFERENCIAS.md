@@ -37,4 +37,4 @@ Outros vídeos indicados durante a pesquisa: [vvTPPywvUlM](https://www.youtube.c
 
 ## Antes de reutilizar material externo
 
-Confirme se é Silksong ou Hollow Knight original, o runtime/plataforma, os nomes/UVs/atlas da instalação, a licença de código e a licença de assets separadamente. Creditar uma URL não concede direitos de redistribuição. [NOTICE.md](../NOTICE.md) registra que não foi aplicada uma licença aberta geral ao projeto.
+Confirme se é Silksong ou Hollow Knight original, o runtime/plataforma, os nomes/UVs/atlas da instalação, a licença de código e a licença de assets separadamente. Creditar uma URL não concede direitos de redistribuição. O código original está sob [MIT](../LICENSE); [NOTICE.md](../NOTICE.md) preserva os direitos de dependências e assets de terceiros.

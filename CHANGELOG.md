@@ -41,3 +41,7 @@ Base Brasão do Fio e Sacrifício com duelo por turnos. O seletor de brasões pa
 ## Organização inicial no GitHub
 
 Sem alterar os arquivos C# do baseline: documentação completa por módulo, `AGENTS.md`, contribuição, mapa de arquitetura, estágios/limitações, roadmap, avisos de direitos, scripts de teste/build, testes portáveis e CI isolada. Release do baseline e snapshot de fonte para continuidade. Não é um patch adicional de gameplay.
+
+## Licença MIT — 11 de outubro de 2026
+
+Licença MIT adicionada a pedido do proprietário (`Copyright (c) 2026 Yorioshi`), com atualização dos avisos e instruções de redistribuição. Scripts de empacotamento passam a incluir `LICENSE` e `NOTICE.md` nos ZIPs Windows e fonte. Sem alteração de gameplay, dano, recursos, saves ou assets.

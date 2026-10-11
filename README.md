@@ -2,7 +2,7 @@
 
 Mod experimental para **Hollow Knight: Silksong (Windows)** com combate por turnos no cenário, brasão/item personalizados, ferramentas, invocações persistentes e customização visual de Hornet.
 
-**Versão de referência: 0.7.25.** O código está disponível para continuidade por colaboradores e agentes de IA. O repositório foi criado privado; para outras pessoas acessarem, o proprietário precisa conceder acesso. A licença geral de redistribuição ainda não foi escolhida — veja [NOTICE.md](NOTICE.md).
+**Versão de referência: 0.7.25.** O código está disponível para continuidade por colaboradores e agentes de IA. O código, a documentação e os scripts estão disponíveis sob a [licença MIT](LICENSE). Veja [NOTICE.md](NOTICE.md) para direitos de dependências, personagens e assets de terceiros.
 
 > **Transparência:** há confirmação do usuário em testes pontuais para combate, persistência de invocações e aplicação visual na 0.7.24. A 0.7.25 foi compilada e passou pelos testes isolados, mas a correção de escala/animações da Silk Eclipse ainda não tem confirmação in-game neste baseline. Não há cobertura completa de inimigos, bosses, ferramentas, idiomas, resoluções ou outros mods.
 
@@ -77,7 +77,8 @@ As instruções internas de batalha leem bindings do jogo; o prompt alternativo 
 | [Changelog](CHANGELOG.md) | Evolução relevante e mudanças de comportamento |
 | [Contribuição](CONTRIBUTING.md) | Build, testes, empacotamento, PRs, relato de bugs e rollback |
 | [Instruções para IA](AGENTS.md) | Contexto de continuidade, contratos, armadilhas e prompt reutilizável |
-| [Avisos e direitos](NOTICE.md) | Dependências externas, arte e licença ainda não definida |
+| [Licença MIT](LICENSE) | Permissões de uso, modificação e redistribuição |
+| [Avisos e direitos](NOTICE.md) | Dependências externas, arte e direitos de terceiros |
 
 ## Desenvolver com ou sem IA
 
