@@ -25,3 +25,7 @@ Catálogo de ataques, sinergias e packs usam heurísticas de nomes/cores; não h
 Feche o jogo, faça backup dos saves antes de testar persistência e mantenha uma única DLL do mesmo GUID. Não apague `appearance.json` ou `summons-slot-N.json` para atualizar. Rollback normal é restaurar a DLL anterior conhecida como funcional; mudanças de schema exigem migração/backup específico.
 
 O código original, a documentação e os scripts estão sob MIT; consulte `LICENSE` e `NOTICE.md` para direitos e dependências não incluídas. Mantenha os avisos nas redistribuições.
+
+## Atualização de distribuição e licença
+
+Repositório tornado público em 11 de outubro de 2026 a pedido do proprietário. `LICENSE` MIT e `NOTICE.md` estão incluídos nos ZIPs atualizados de instalação/fonte; a licença também pode ser baixada separadamente nos assets deste release. O código de gameplay continua sendo 0.7.25 e a tag original de baseline foi preservada. O branch `main` contém as atualizações de documentação/licença posteriores ao baseline.

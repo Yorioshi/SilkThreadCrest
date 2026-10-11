@@ -2,7 +2,7 @@
 
 Mod experimental para **Hollow Knight: Silksong (Windows)** com combate por turnos no cenário, brasão/item personalizados, ferramentas, invocações persistentes e customização visual de Hornet.
 
-**Versão de referência: 0.7.25.** O código está disponível para continuidade por colaboradores e agentes de IA. O código, a documentação e os scripts estão disponíveis sob a [licença MIT](LICENSE). Veja [NOTICE.md](NOTICE.md) para direitos de dependências, personagens e assets de terceiros.
+**Versão de referência: 0.7.25.** O código está disponível para continuidade por colaboradores e agentes de IA. O repositório é **público**: qualquer pessoa pode consultar o código e baixar os [releases](https://github.com/Yorioshi/SilkThreadCrest/releases). O código, a documentação e os scripts estão disponíveis sob a [licença MIT](LICENSE). Veja [NOTICE.md](NOTICE.md) para direitos de dependências, personagens e assets de terceiros.
 
 > **Transparência:** há confirmação do usuário em testes pontuais para combate, persistência de invocações e aplicação visual na 0.7.24. A 0.7.25 foi compilada e passou pelos testes isolados, mas a correção de escala/animações da Silk Eclipse ainda não tem confirmação in-game neste baseline. Não há cobertura completa de inimigos, bosses, ferramentas, idiomas, resoluções ou outros mods.
 
